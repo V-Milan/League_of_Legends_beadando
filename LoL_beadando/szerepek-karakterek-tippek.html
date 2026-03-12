@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>League of Legends – Kezdőknek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button class="menu-toggle" id="menuBtn">☰</button>
+  <div class="overlay" id="overlay"></div>
+
+  <nav class="nav-menu" id="navMenu">
+    <ul>
+      <li><a href="index.html">Mi az a LoL?</a></li>
+      <li><a href="reszletes.html">Részletes leírás</a></li>
+      <li><a href="szerepek-karakterek-tippek.html">Szerepek, Karakterek & Tippek</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>League of Legends</h1>
+    <p>Szerepek, Karakterek & Tippek</p>
+  </header>
+
+  <main>
+
+    <section id="szerepek">
+      <h2>A térkép és az 5 szerepkör</h2>
+      <div class="grid-2">
+        <div>
+          <h3>Térkép részei</h3>
+          <ul>
+            <li>3 lane (útvonal): Top (felső), Mid (középső), Bot (alsó)</li>
+            <li>Jungle: erdő a lane-ek között, szörnyekkel és objektumokkal (sárkány, Baron Nashor)</li>
+            <li>Tornyok: védik a bázist, lőnek az ellenségre ha közel mész</li>
+            <li>Nexus & inhibitorok: az utolsó védvonal – ha mindhárom inhibitorod lemegy, szuper minionok jönnek</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Szerepkörök</h3>
+          <ul>
+            <li><strong>Top</strong>: Egyedül fent, általában tankos vagy harcos bajnokok (kevésbé függ a csapattól)</li>
+            <li><strong>Jungle</strong>: Nem lane-en farmol, hanem segít mindenkinek (gank = hirtelen támadás)</li>
+            <li><strong>Mid</strong>: Középen, gyors mágusok vagy asszaszinok, rotál (megy más lane-re segíteni)</li>
+            <li><strong>Bot / ADC</strong>: Távoli sebzés (carry), eleinte gyenge, később nagyon erős</li>
+            <li><strong>Support</strong>: Segíti az ADC-t, wardol (látás), gyógyít, véd</li>
+          </ul>
+          <p class="tip">Kezdőknek a legkönnyebb: Top vagy Support – kevesebb a nyomás rajtad!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="karakterek">
+      <h2>Néhány népszerű karakter</h2>
+      <p class="highlight">Kattints egy kártyára → A Mobalytics oldalára dob, ahol láthatod, hogy hogyan is kellene játszanod az adott karakterrel</p>
+
+      <div class="champ-grid">
+        <a href="https://mobalytics.gg/lol/champions/garen/build" target="_blank" class="champ-card">
+          <img src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/Garen.png" alt="Garen">
+          <p>Garen</p>
+        </a>
+
+        <a href="https://mobalytics.gg/lol/champions/annie/build" target="_blank" class="champ-card">
+          <img src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/Annie.png" alt="Annie">
+          <p>Annie</p>
+        </a>
+
+        <a href="https://mobalytics.gg/lol/champions/lux/build" target="_blank" class="champ-card">
+          <img src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/Lux.png" alt="Lux">
+          <p>Lux</p>
+        </a>
+
+        <a href="https://mobalytics.gg/lol/champions/missfortune/build" target="_blank" class="champ-card">
+          <img src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/MissFortune.png" alt="Miss Fortune">
+          <p>Miss Fortune</p>
+        </a>
+
+        <a href="https://mobalytics.gg/lol/champions/amumu/build" target="_blank" class="champ-card">
+          <img src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/Amumu.png" alt="Amumu">
+          <p>Amumu</p>
+        </a>
+
+        <a href="https://mobalytics.gg/lol/champions/ahri/build" target="_blank" class="champ-card">
+          <img src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/Ahri.png" alt="Ahri">
+          <p>Ahri</p>
+        </a>
+
+        <a href="https://mobalytics.gg/lol/champions/jinx/build" target="_blank" class="champ-card">
+          <img src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/Jinx.png" alt="Jinx">
+          <p>Jinx</p>
+        </a>
+
+        <a href="https://mobalytics.gg/lol/champions/sett/build" target="_blank" class="champ-card">
+          <img src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/Sett.png" alt="Sett">
+          <p>Sett</p>
+        </a>
+      </div>
+
+      <p class="center">Összesen kb. 172 karakter van jelenleg. Ezek a kezdőknek legkönnyebbek közül valók.</p>
+    </section>
+
+    <section id="tippek">
+      <h2>Gyors tippek kezdőknek</h2>
+      <div class="tips-grid">
+        <div class="tip-card">Maradj torony közelében eleinte – ne halj meg feleslegesen!</div>
+        <div class="tip-card">Farmolj minionokat (utolsó ütés = arany + XP)!</div>
+        <div class="tip-card">Nézd a minimapot gyakran – hol vannak az ellenségek?</div>
+        <div class="tip-card">Wardolj (látásadó tárgy) – főleg supporttal!</div>
+        <div class="tip-card">Próbálj genkelni (segíteni a csapttársaidnak), amikor csak tudsz - főleg junglerként</div>
+        <div class="tip-card">Ne legyél toxic a chaten! - Nem kell elrontani valaki kedvét csak azért, mert valamelyikőtök jobban játszik</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Készítette: Variasi Milán • Iskolai projekt • Nem hivatalos oldal</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
